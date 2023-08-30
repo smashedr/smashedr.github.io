@@ -16,3 +16,10 @@ at libero condimentum placerat consectetur eget leo. Integer luctus bibendum lac
 sit amet venenatis. Maecenas aliquet nunc et cursus ultricies. Pellentesque habitant
 morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent
 condimentum arcu magna, nec ultricies nulla ultricies quis.
+
+## Test
+
+-   {{ site_url }}
+-   {{ page.url }}
+-   {{ page.title }}
+-   {{ page.absolute_url }}
