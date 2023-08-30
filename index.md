@@ -10,13 +10,17 @@ title: Home
 
 # SmAsHeDr - Home
 
-Markdown Link: [test](test.md)
+**Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
+
+-   Markdown Link: [test.md](test.md)
+-   Relative HTML Link: [test.md](test.html)
+-   Absolute HTML Link: [test.md](/test.html)
 
 ## Organizations
 
-- [https://github.com/cssnr/](https://github.com/cssnr/)
-- [https://github.com/hosted-domains/](https://github.com/hosted-domains/)
-- [https://github.com/django-files/django-files](https://github.com/django-files/django-files)
+1.  [https://github.com/cssnr/](https://github.com/cssnr/)
+1.  [https://github.com/hosted-domains/](https://github.com/hosted-domains/)
+1.  [https://github.com/django-files/django-files](https://github.com/django-files/django-files)
 
 ```text
 code block here
