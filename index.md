@@ -1,26 +1,20 @@
 ---
 title: Home
 ---
-
-[![Build](https://github.com/django-files/django-files/actions/workflows/build.yaml/badge.svg)](https://github.com/django-files/django-files/actions/workflows/build.yaml)
-[![Test](https://github.com/django-files/django-files/actions/workflows/test.yaml/badge.svg)](https://github.com/django-files/django-files/actions/workflows/test.yaml)
-[![Deploy](https://img.shields.io/drone/build/django-files/django-files?label=Deploy&logo=drone&server=https%3A%2F%2Fdrone.hosted-domains.com)](https://drone.hosted-domains.com/django-files/django-files)
-[![Codacy](https://img.shields.io/codacy/grade/7c41f4f6526c4233ba1304bfb45981c4?label=Codacy&logo=codacy&logoColor=white)](https://app.codacy.com/gh/django-files/django-files/dashboard)
-[![Coverage](https://img.shields.io/codacy/coverage/7c41f4f6526c4233ba1304bfb45981c4?label=Coverage&logo=codacy&logoColor=white)](https://app.codacy.com/gh/django-files/django-files/dashboard)
-
+[![pages-build-deployment](https://github.com/smashedr/smashedr.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/smashedr/smashedr.github.io/actions/workflows/pages/pages-build-deployment){:target="_blank"}
 # SmAsHeDr - Home
 
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
 
--   Markdown Link: [test.md](test.md)
--   Relative HTML Link: [test.md](test.html)
--   Absolute HTML Link: [test.md](/test.html)
+-   Markdown Link: [Test](test.md)
+-   Relative HTML Link: [Test](test.html)
+-   Absolute HTML Link: [Test](/test.html)
 
 ## Organizations
 
-1.  [https://github.com/cssnr/](https://github.com/cssnr/)
-1.  [https://github.com/hosted-domains/](https://github.com/hosted-domains/)
-1.  [https://github.com/django-files/django-files](https://github.com/django-files/django-files)
+1.  [https://github.com/cssnr/](https://github.com/cssnr/){:target="_blank"}
+1.  [https://github.com/hosted-domains/](https://github.com/hosted-domains/){:target="_blank"}
+1.  [https://github.com/django-files/django-files](https://github.com/django-files/django-files){:target="_blank"}
 
 ```text
 code block here
