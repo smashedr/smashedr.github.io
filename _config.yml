@@ -1,5 +1,10 @@
 markdown: kramdown
 timezone: America/Los_Angeles
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled:     true
+  collections: false
 defaults:
   -
     values:
