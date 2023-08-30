@@ -1,5 +1,3 @@
 # SmAsHeDr
 
-- https://github.com/cssnr/
-- https://github.com/hosted-domains/
-- https://github.com/django-files/django-files
+GitHub Pages
