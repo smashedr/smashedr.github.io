@@ -1,5 +1,11 @@
 // JS for links.html and options.html
 
+document.addEventListener('DOMContentLoaded', function () {
+    particlesJS.load('particles-js', '/config/particles.json', function () {
+        console.debug('particles.js config loaded')
+    })
+})
+
 if (typeof ClipboardJS !== 'undefined') {
     const clipboard = new ClipboardJS('.clip')
     clipboard.on('success', function (event) {
