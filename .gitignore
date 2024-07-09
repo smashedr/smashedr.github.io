@@ -1,5 +1,5 @@
 .idea/
 *.iml
 .vscode/
-build/
-node_modules/
+**/.jekyll-cache/
+**/_site/

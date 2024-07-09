@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-100" >
+<html lang="en" class="h-100" data-bs-theme="dark">
 <head>
 
     <meta charset="utf-8">
@@ -19,8 +19,6 @@
     <meta property="og:url" content="http://0.0.0.0:8000/">
     <meta property="og:image" content="http://0.0.0.0:8000/media/logo.png">
 
-    
-    <script type="text/javascript" src="/js/theme.js"></script>
     
 
     <link rel="icon" href="/favicon.ico" sizes="any">
@@ -61,7 +59,7 @@
                     </li>
                     
                 </ul>
-                <ul class="navbar-nav right-icons">
+                <ul class="navbar-nav nav-icons d-flex flex-row">
                     <li class="nav-item"><a class="nav-link" href="https://discord.gg/wXy6m2X8wY" target="_blank" rel="noopener">
                         <i class="fa-brands fa-discord fa-xl"></i></a></li>
                     <li class="nav-item"><a class="nav-link" href="https://github.com/smashedr" target="_blank" rel="noopener">
@@ -73,14 +71,25 @@
 </header>
 
 <main class="flex-grow-1 px-2 px-sm-3">
-    <h1><i class="fa-brands fa-github"></i> SmAsHeD</h1>
+    <div id="content-wrapper" class="p-3 mb-3 mx-auto w-100 rounded rounded-4">
+        <h1><i class="fa-brands fa-github"></i> SmAsHeD</h1>
 
 <p class="lead">
     GitHub Pages for <a href="https://github.com/smashedr" target="_blank" rel="noopener">SmAsHeD GitHub</a> projects.
 </p>
 
+<div class="alert alert-warning bg-transparent" role="alert">
+    <h4 class="alert-heading">Testing Only</h4>
+    <p>There is nothing to see here, please move along...</p>
+    <hr>
+    <p class="mb-0">This site will self-destruct if you continue to view it!</p>
+</div>
+
+<script src="/js/index.js" timeout="180000" message="Giuseppe Gurgone"></script>
 
 
+
+    </div>
 </main>
 
 <footer class="footer mt-auto px-1 flex-shrink-0 bg-body-tertiary">
@@ -117,7 +126,7 @@
     </div>
 </footer>
 
-<button type="button" class="btn btn-outline-primary" id="back-to-top">
+<button type="button" class="btn btn-outline-light" id="back-to-top">
     <i class="fa-regular fa-square-caret-up"></i>
 </button> <!-- back-to-top -->
 

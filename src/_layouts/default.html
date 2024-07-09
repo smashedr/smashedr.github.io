@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-100" {% if page.dark %}data-bs-theme="dark"{% endif %}>
+<html lang="en" class="h-100" data-bs-theme="dark">
 <head>
 
     <meta charset="utf-8">
@@ -21,9 +21,11 @@
     <meta property="og:url" content="{{ "/" | absolute_url }}">
     <meta property="og:image" content="{{ "/media/logo.png" | absolute_url }}">
 
+    {% comment %}
     {% if page.dark != true %}
     <script type="text/javascript" src="{{ "/js/theme.js" | relative_url }}"></script>
     {% endif %}
+    {% endcomment %}
 
     <link rel="icon" href="{{ "/favicon.ico" | relative_url }}" sizes="any">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relative_url }}">
@@ -32,9 +34,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
 
+    {% comment %}
     {% if page.title == 'Feedback' %}
     <link rel="stylesheet" href="{{ "/css/feedback.css" | relative_url }}">
     {% endif %}
+    {% endcomment %}
 
 </head>
 <body class="d-flex flex-column h-100">
@@ -59,7 +63,7 @@
                     </li>
                     {% endfor %}
                 </ul>
-                <ul class="navbar-nav right-icons">
+                <ul class="navbar-nav nav-icons d-flex flex-row">
                     <li class="nav-item"><a class="nav-link" href="{{ site.discord_invite }}" target="_blank" rel="noopener">
                         <i class="fa-brands fa-discord fa-xl"></i></a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ site.github_url }}" target="_blank" rel="noopener">
@@ -71,7 +75,9 @@
 </header>
 
 <main class="flex-grow-1 px-2 px-sm-3">
-    {{ content }}
+    <div id="content-wrapper" class="p-3 mb-3 mx-auto w-100 rounded rounded-4">
+        {{ content }}
+    </div>
 </main>
 
 <footer class="footer mt-auto px-1 flex-shrink-0 bg-body-tertiary">
@@ -102,7 +108,7 @@
     </div>
 </footer>
 
-<button type="button" class="btn btn-outline-primary" id="back-to-top">
+<button type="button" class="btn btn-outline-light" id="back-to-top">
     <i class="fa-regular fa-square-caret-up"></i>
 </button> <!-- back-to-top -->
 

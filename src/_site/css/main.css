@@ -1,25 +1,49 @@
 /* CSS for global */
 
+body {
+    background: url('https://flask-image.cssnr.com/');
+    background-size: cover;
+}
+
+a {
+    color: RGBA(var(--bs-emphasis-color-rgb), var(--bs-link-opacity, 1));
+}
+a:hover,
+a:focus {
+    color: var(--bs-link-hover-color-rgb);
+}
+
 #back-to-top {
+    display: none;
     position: fixed;
     bottom: 64px;
     right: 20px;
-    display: none;
-    z-index: 3;
+    z-index: 5;
 }
 
-/*.toast-container {*/
-/*    max-width: 260px;*/
-/*    width: 100%;*/
-/*}*/
+#content-wrapper {
+    background: rgba(0 0 0 / 70%);
+    filter: drop-shadow(15px 15px 12px #000000);
+    backdrop-filter: blur(6px);
+    max-width: 991px;
+}
+
+.form-control {
+    background: rgba(0 0 0 / 50%);
+}
+
+.navbar,
+.footer {
+    background: rgba(0 0 0 / 50%) !important;
+    backdrop-filter: blur(6px);
+}
 
 @media (max-width: 575px) {
-    .right-icons {
-        display: flex;
-        flex-direction: row;
+    .nav-icons .nav-link {
+        padding-right: 7px;
     }
-    .right-icons .nav-item {
-        margin-right: 15px;
+    .nav-icons .nav-item + .nav-item .nav-link {
+        padding-left: 7px;
     }
 }
 
