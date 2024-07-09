@@ -1,0 +1,17 @@
+timezone: America/Los_Angeles
+encoding: utf-8
+
+url: https://smashedr.github.io
+
+author: Shane
+site_name: SmAsHeD
+
+menu:
+  - name: Home
+    link: /
+  - name: About
+    link: /about/
+
+github_url: https://github.com/smashedr
+
+discord_invite: https://discord.gg/wXy6m2X8wY
