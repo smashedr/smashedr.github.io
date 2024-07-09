@@ -1,7 +1,7 @@
 /* CSS for global */
 
 body {
-    background: url('https://flask-image.cssnr.com/');
+    background: url('https://flask-image.cssnr.com/') no-repeat center fixed;
     background-size: cover;
 }
 
