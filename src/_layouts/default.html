@@ -47,7 +47,7 @@
 <div  id="particles-js"></div>
 
 <header>
-    <nav class="navbar navbar-expand-sm bg-body-tertiary mb-2" aria-label="Primary Navigation">
+    <nav class="navbar navbar-expand-sm bg-body-tertiary" aria-label="Primary Navigation">
         <div class="container-fluid">
             <a class="mx-2" href="{{ "/" | relative_url }}">
             <img src="{{ "/media/logo.png" | relative_url }}" width="30" height="30" alt="logo" class="my-auto"></a>
@@ -67,18 +67,22 @@
                     {% endfor %}
                 </ul>
                 <ul class="navbar-nav nav-icons d-flex flex-row">
-                    <li class="nav-item"><a class="nav-link" href="{{ site.discord_invite }}" target="_blank" rel="noopener">
-                        <i class="fa-brands fa-discord fa-xl"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ site.github_url }}" target="_blank" rel="noopener">
-                        <i class="fa-brands fa-github fa-xl"></i></a></li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-grow-lg" href="{{ site.discord_invite }}" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-discord fa-xl"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-grow-lg" href="{{ site.github_url }}" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github fa-xl"></i></a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 </header>
 
-<main class="flex-grow-1 px-2 px-sm-3">
-    <div id="content-wrapper" class="p-3 mb-3 mx-auto w-100 rounded rounded-4 animate__animated animate__fadeIn">
+<main class="flex-grow-1 px-1 px-sm-3">
+    <div id="content-wrapper" class="p-3 my-3 mx-auto w-100 rounded rounded-4 animate__animated animate__fadeIn animate__slow">
         {{ content }}
     </div>
 </main>
