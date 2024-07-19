@@ -1,7 +1,6 @@
 name: "Pages"
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - master
@@ -10,6 +9,7 @@ on:
   repository_dispatch:
     types:
       - webhook
+  workflow_dispatch:
 
 permissions:
   contents: read
